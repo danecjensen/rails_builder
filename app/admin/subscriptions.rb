@@ -1,4 +1,5 @@
 ActiveAdmin.register Subscriptions do
+  permit_params :email, :monthsleft
 
   
   # See permitted parameters documentation:
